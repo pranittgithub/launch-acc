@@ -56,7 +56,7 @@ $(function () {
 
 	$(document).ready(function() {
         // Set the specific time (e.g., 7:15 AM IST on January 6, 2025)
-        var targetTime = new Date("2025-01-05T20:00:00+05:30"); // IST (GMT+5:30)
+        var targetTime = new Date("2025-01-05T21:00:00+05:30"); // IST (GMT+5:30)
 
         // Initialize the countdown
         $('#countdown').countdown(targetTime, function(event) {
